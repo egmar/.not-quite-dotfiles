@@ -3,10 +3,10 @@ ENABLE_CORRECTION="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # for tiny-care-terminal
-export TTC_REPOS="~/Code"
+export TTC_REPOS="~/Projects"
 export TTC_REPOS_DEPTH=2
 export TTC_GITBOT='gitlog'
-export TTC_WEATHER='San Francisco'
+export TTC_WEATHER='Brno, Czech Republic'
 
 # this file contains these vars:
 # export TTC_CONSUMER_KEY="..."
@@ -47,4 +47,4 @@ blerg() {
   echo ""
 }
 
-blerg
+#blerg
