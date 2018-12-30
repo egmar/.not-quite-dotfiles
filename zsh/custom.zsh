@@ -27,7 +27,9 @@ source $HOME/.not-quite-dotfiles/zsh/aliases
 source $HOME/.not-quite-dotfiles/zsh/chrome
 
 export PATH="/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
-
+export GOPATH=/Users/egor/Projects/Go/work
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 export NVM_DIR="/Users/noms/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
